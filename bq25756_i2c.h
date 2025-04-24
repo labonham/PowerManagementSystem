@@ -65,3 +65,5 @@ int BQ25756_WriteReg(unsigned char ADD, u8 reg_add, u8 reg_dat);
 int BQ25756_ReadReg(unsigned char ADD, u8 reg_add, unsigned char *Read, u8 num);
 int clamp(int value, int min, int max);
 #endif
+
+
